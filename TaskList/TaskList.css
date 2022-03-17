@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+section{
+    padding:2rem 3rem;
+}
+#main-container{
+    border:1px solid #ddd;
+    box-shadow: 1px 1px 3px #aaa;
+    margin:2rem auto;
+    max-width: 50rem;
+}
+.container{
+    border-bottom:1px solid #ddd;
+    padding:2rem;
+    line-height: 2rem;
+}
+
+#list-collection{
+    border: none;
+    line-height: 2rem;
+}
+ul.collection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #aaa;
+}
+ul.collection li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #aaa;
+    padding:0.6rem;
+}
+ul.collection li:last-child{
+    border:none;
+}
+input{
+    width:100%;
+    border:none;
+    border-bottom:2px solid #ccc;
+    padding:10px 2px;
+    font-size: 1rem;
+    margin-bottom:1rem;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(4, 190, 128);
+}
+#heading h5{
+    color:#777;
+}
+.btn{
+    border:none;
+    height:3rem;
+    width:10rem;
+    margin-top:1rem;
+    color:#fff;
+    cursor: pointer;
+}
+
+.add-btn{
+    background-color: rgb(4, 190, 128);
+}
+.add-btn:hover{
+    background-color: rgb(5, 175, 119);
+}
+.remove-btn{
+    background-color: black;
+}
+.remove-btn:hover{
+    background-color: rgb(26, 26, 26);
+    
+}
+ul li a i{
+    color:darkgoldenrod;
+    cursor: pointer;
+}
+h1,h4,h5{
+    font-weight: 300;
+}
+h1{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
