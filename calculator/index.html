@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            
+            <div class="screen">
+                <p id="result-history"></p>
+                <input type="text" id="result">
+            </div>
+            <div class="keyboard">
+                <table>
+                    <tr>
+                        <th><button>AC</button></th>
+                        <th><button>C</button></th>
+                        <th><button>%</button></th>
+                        <th><button>÷</button></th>
+                    </tr>
+                    <tr>
+                        <th><button class="number">7</button></th>
+                        <th><button class="number">8</button></th>
+                        <th><button class="number">9</button></th>
+                        <th><button>x</button></th>
+                    </tr>
+                    <tr>
+                        <th><button class="number">4</button></th>
+                        <th><button class="number">5</button></th>
+                        <th><button class="number">6</button></th>
+                        <th><button>-</button></th>
+                    </tr>
+                    <tr>
+                        <th><button class="number">1</button></th>
+                        <th><button class="number">2</button></th>
+                        <th><button class="number">3</button></th>
+                        <th><button>+</button></th>
+                    </tr>
+                    <tr>
+                        <th><button class="number">0</button></th>
+                        <th><button class="number">.</button></th>
+                        <th><button id="backspace"><i class="fas fa-backspace"></i></button></th>
+                        <th><button>=</button></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>

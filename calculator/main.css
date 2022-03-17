@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    background-color: #222;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height:fit-content;
+    padding:20px 0;
+    width: fit-content;
+    background-color: #f4f4f4;
+}
+.container h1{
+    font-size: 50px;
+    color:#fff;
+    font-weight: 300;
+}
+.calculator .screen{
+    border-bottom: 1px solid #777;
+    height:70px;
+    /* padding:20px; */
+}
+.calculator .screen input:focus{
+    outline: none;
+}
+.calculator .screen p,input{
+    width:30px;
+    height:50%;
+    /* direction: rtl; */
+    width:100%;
+    background-color: transparent;
+}
+.calculator .screen input{
+    border:none;
+
+}
+button{
+    border:none;
+    width: 80px;
+    height:80px;
+
+    border-radius: 50%;
+    cursor: pointer;
+}
+.keyboard{
+    padding:10px;
+}
+tr:first-child th:nth-of-type(1) button:nth-of-type(1){
+    padding:20px 20px;
+}
+tr:nth-of-type(1) th:nth-of-type(4) button:nth-of-type(1){
+    background-color: darkseagreen;
+}
+tr:nth-of-type(2) th:nth-of-type(4) button:nth-of-type(1){
+    background-color: palevioletred;
+}
+tr:nth-of-type(3) th:nth-of-type(4) button:nth-of-type(1){
+    background-color: steelblue;
+}
+tr:nth-of-type(4) th:nth-of-type(4) button:nth-of-type(1){
+    background-color: slategrey;
+}
+tr:nth-of-type(5) th:nth-of-type(4) button:nth-of-type(1){
+    background-color: rosybrown;
+}
+tr:nth-of-type(5) th:nth-of-type(3) button:nth-of-type(1) {
+    /* background-color: #333; */
+    padding:20px 20px;
+}
+.number{
+    background-color: transparent;
+}
+
+
+
+
