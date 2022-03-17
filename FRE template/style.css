@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+ul{
+    list-style: none;
+}
+
+/* utilities */
+.container{
+    padding:2rem;
+}
+.btn{
+    cursor: pointer;
+    padding:1rem 1.5rem;
+    margin:1rem 0;
+    border:none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-dark{
+    background-color: #222;
+    color:#fff;
+}
+.btn-dark:hover{
+    background-color: #444;
+}
+
+/* navbar - logo*/
+nav{
+    background-color: #fff;
+}
+#logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:1.5rem 0.5rem;
+    font-family: 'Playfair Display', serif;
+}
+#logo-container .logo a img{
+    height:5rem;
+    width:5rem;
+    margin-right:10px ;
+}
+#logo-container .logo,
+#logo-container .contact-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#919197;
+}
+#logo-container .contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:25%;
+}
+#logo-container .contact-info i{
+    margin: 5px;
+}
+#logo-container .contact-info .cart-items{
+    background-color: black;
+    color: #fff;
+    padding:2px 4px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+#navigation{
+    display: flex;
+    justify-content: center;
+}
+#navigation ul{
+    display: flex;
+}
+#navigation ul li.nav-items{
+    padding:0 1.2rem;
+}
+#navigation ul li.nav-items a{
+    font-size: 1.2rem;
+    color: #919191;
+    font-weight:500;
+}
+#navigation ul li.nav-items a:hover{
+    color:#222;
+}
+/* banner */
+.banner{
+    background: url("banner.jpg") no-repeat center/cover;
+    background-attachment:fixed ;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 4rem;
+    color:#fff;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    max-width: 70%;
+}
+/* shopping */
+.shopping{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shopping-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   width:32%;
+   height:7rem;
+   background-color: #000;
+   padding:1rem;
+   margin:2rem 0;
+
+}
+.shopping-items a{
+    color:#fff;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+/* products */
+.products h3,
+.brands h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color:#222;
+    text-align: center;
+    font-weight: 200;
+    margin:1.5rem 0 3rem 0;
+    
+}
+.products h3 span,
+.brands h3 span{
+    border-bottom: 1px solid black;
+    padding: 1.2rem 0 ;
+}
+.product img{
+    width:24rem;
+    height: 20.875rem;
+    opacity: 0.8;
+}
+.product img:hover{
+    opacity: 1;
+}
+.products-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    padding:1.5rem 0;
+}
+.product h4{
+    padding:0.8rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}.product h5{
+    color:#919197;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* brands */
+.brands .logos a img{
+    height: 4.3rem;
+    width:8.7rem;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:2rem 0;
+}
+/* contact */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #b8b8bcdb 1px solid;
+    padding:3rem;
+}
+.contact input{
+    padding:1rem;
+    border:#b8b8bcdb 1px solid;
+}
+.contact input::placeholder{
+    color: #b8b8bcdb;
+    font-family: 'Playfair Display', serif;
+}
+.contact p{
+    padding:1rem 1rem;
+    font-family: 'Playfair Display', serif;
+    color:#919197;
+    font-style: italic;
+}
+.contact input:focus{
+    outline: 1px solid rgb(21, 154, 211);
+    border:none;
+}
+/* footer */
+footer{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:3rem;
+}
+footer a i{
+    color:#fff;
+    padding:0 1.5rem;
+}
