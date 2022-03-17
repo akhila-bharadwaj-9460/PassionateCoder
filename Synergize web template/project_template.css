@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
+body {
+  background-color: #ccc;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 2px;
+}
+a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+}
+.bg-light {
+  background-color: #fafafa;
+}
+.bg-dark {
+  background-color: #222;
+}
+.bg-green {
+  background-color: #9acd32;
+}
+.navbar-container {
+  background-color: #fff;
+  padding: 0 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0 3px 1rem #ccc;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li,
+.logo {
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 1.4rem;
+}
+.current,
+.logo,
+.logo span i {
+  color: #9acd32;
+}
+.navbar ul li a:hover {
+  color: #9acd32;
+}
+/* header */
+.main-content {
+  background: url("./project_header.jpeg") no-repeat center/cover;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 7rem;
+}
+.content {
+  text-align: center;
+}
+.content h3 {
+  font-size: 7rem;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.content p {
+  color: #ddd;
+  font-size: 1.2rem;
+}
+.btn {
+  margin-top: 1rem;
+  border: none;
+  padding: 1.3rem 2.3rem;
+  font-size: 1.5rem;
+  border-radius: 300px;
+  cursor: pointer;
+}
+.btn-green {
+  background-color: #9acd32;
+  color: #fff;
+}
+.btn-light {
+  background-color: #eee;
+  color: #222;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+  color: #fff;
+  height: 50vh;
+}
+.text-content h4 {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+.text-content p {
+  font-size: 1.3rem;
+  color: #eee;
+  width: 75%;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 7rem 4rem;
+  justify-content: space-between;
+}
+
+.img-section img {
+  height: 25rem;
+  width: 35rem;
+  border-radius: 50%;
+}
+.text-section {
+  width: 45vw;
+  line-height: 3.5rem;
+}
+.text-section h3 {
+  font-size: 2.1rem;
+}
+.text-section p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.text-light p {
+  color: #666;
+}
+.text-dark h3 {
+  color: #fff;
+}
+.text-dark p {
+  color: #aaa;
+}
+
+.images {
+  height: 35vh;
+  display: flex;
+}
+.Picture {
+  display: flex;
+  width: 33.33333%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.images #img1 {
+  background: url("./project_writing.jpeg") no-repeat center/cover;
+}
+.images #img2 {
+  background: url("./project_concert.jpeg") no-repeat center/cover;
+}
+.images #img3 {
+  background: url("./project_pencil.jpeg") no-repeat center/cover;
+}
+.Picture h3 {
+  color: #fff;
+  font-size: 3rem;
+}
+.Picture:hover {
+  border: 10px solid rgba(227, 227, 227, 0.434);
+}
+
+#sanity-section h3 {
+  font-size: 3rem;
+  color: #222;
+  letter-spacing: 1px;
+}
+#sanity-section i {
+  color: #9acd32;
+  transform: rotate(30deg);
+}
+#sanity-section p {
+  color: #777;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.contact {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  line-height: 3rem;
+}
+.contact h4 {
+  font-size: 1.5rem;
+}
+.contact h3 {
+  font-size: 2.2rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  height: 10vh;
+  font-size: 1.5rem;
+}
