@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-size: 17px;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #ccc ;
+    
+    justify-content: space-between;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-basis: 20rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a{
+    display: block;
+    margin:10px 15px;
+    padding:6px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+#hamburger{
+    background: url("hamburger.jpeg") center/cover no-repeat ;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:20px;
+}
+#hamburger h1{
+    color:rgb(112, 112, 112);
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.container{
+    
+    background: #fff;
+    margin:3rem;
+    border-bottom: 2px solid #f4f4f4;
+    padding:50px;
+    display: flex;
+}
+.container #abt-img{
+    background: #fff url("tablesetting2.jpeg") center/cover no-repeat;
+    border-radius: 5px;
+   
+}
+.container #abt-img, .container #abt-info{
+    height:100vh;
+    width:45vw;
+    padding:20px;
+    text-align: center;
+}
+.container #abt-info{
+    line-height: 3rem;
+    
+}
+#abt-info h1{
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    
+}
+#abt-info h3{
+    font-weight: 200;
+    font-size: 1rem;
+}
+ .container #abt-info p{
+     text-align: left;
+     line-height: 1.5rem;
+     letter-spacing: 1px;
+     padding:0 15px;
+     padding-bottom:20px;
+ }
+ #abt-info p:last-of-type{
+     color:rgb(163, 163, 163);
+ }
+
+ #menu{
+     display:flex;
+     justify-content: space-between;
+     padding-bottom: 4.5rem;
+     
+ }
+ #menu #menu-img{
+     background: url("./tablesetting.jpeg") center/cover no-repeat;
+     height:100vh;
+     width:45vw;
+     border-radius: 5px;
+ }
+ #menu #menu-info{
+     color:#333;
+     width: 45vw;
+     
+ }
+
+ #menu #menu-info h2{
+     text-align: center;
+     font-size:2.3rem;
+     font-weight: 300;
+     margin-bottom: 2rem;
+     
+ }
+
+ .menu-items h3{
+     letter-spacing: 3px;
+     font-weight: 200;
+     line-height: 3rem;
+ }
+ .menu-items p{
+     letter-spacing: 0px;
+     color:rgb(163, 163, 163);
+ }
+
+ .menu-items{
+     margin-bottom: 2rem;
+ }
+#contact-info{
+    font-size: 1rem;
+}
+
+ #contact-info h2{
+    text-align: left;
+    font-size:2.3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+ }
+
+ #contact-info p{
+     letter-spacing: 0;
+     margin-bottom: 2rem;
+ }
+
+ #contact-info p:nth-of-type(2){
+     color: rgb(146, 146, 146);
+     font-weight: 800;
+ }
+
+ #data-entry input{
+     display: block;
+     border:none;
+     border-bottom: 1px solid rgb(173, 173, 173);
+     padding:5px;
+     margin-bottom: 2rem;
+     width: 100%;
+     height: 3rem;
+ }
+#data-entry input:focus{
+    outline: 2px solid crimson;
+}
+
+#data-entry button{
+    color:#333;
+    padding:15px 15px;
+    background: rgb(236, 236, 236);
+    border:none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#data-entry button:hover{
+    background-color:rgb(182, 182, 182)
+}
+#contact{
+    border:none;
+}
+
+footer{
+    display: flex;
+    width:100vw;
+    background: rgb(148, 148, 148);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:30vh
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 20rem;
+    justify-content: space-evenly;
+}
+
+footer ul li a i:hover{
+    color: crimson;
+}
